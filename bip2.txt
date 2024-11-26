@@ -1,0 +1,110 @@
+Enter inclusivity value (-1: non-inclusive, 0: inclusive, 1: exclusive and 2: similar to BIP): Enter fractions of non-inclusive, inclusive and exclusive values respectively (default 0.2, 0.2, 0.6): 
+Simulation is starting ... 
+
+File sequential.txt opened successfully !!!
+
+
+----------------------------------------- Printing Statistics ----------------------------------------
+
+       References : 100000
+
+       Page faults: 1024 (1.024%)
+
+       TLB1 hits  : 86604 (87.5%)
+
+       TLB2 hits  :    0 (0%)
+
+       Total TLB  hits: 86604 (87.5%)
+
+       TLB misses : 12372 (12.5%)
+
+       VM hits    : 12372 (12.372%)
+
+
+Simulation is starting ... 
+
+File random.txt opened successfully !!!
+
+
+----------------------------------------- Printing Statistics ----------------------------------------
+
+       References : 100000
+
+       Page faults: 1024 (1.024%)
+
+       TLB1 hits  : 6121 (6.18433%)
+
+       TLB2 hits  : 24748 (26.6523%)
+
+       Total TLB  hits: 30869 (31.1884%)
+
+       TLB misses : 68107 (68.8116%)
+
+       VM hits    : 68107 (68.107%)
+
+
+Simulation is starting ... 
+
+File strided.txt opened successfully !!!
+
+
+----------------------------------------- Printing Statistics ----------------------------------------
+
+       References : 100000
+
+       Page faults:  256 (0.256%)
+
+       TLB1 hits  : 49872 (50%)
+
+       TLB2 hits  :    0 (0%)
+
+       Total TLB  hits: 49872 (50%)
+
+       TLB misses : 49872 (50%)
+
+       VM hits    : 49872 (49.872%)
+
+
+Simulation is starting ... 
+
+File temporal_locality.txt opened successfully !!!
+
+
+----------------------------------------- Printing Statistics ----------------------------------------
+
+       References : 100000
+
+       Page faults:   16 (0.016%)
+
+       TLB1 hits  : 49919 (49.927%)
+
+       TLB2 hits  : 50065 (100%)
+
+       Total TLB  hits: 99984 (100%)
+
+       TLB misses :    0 (0%)
+
+       VM hits    :    0 (0%)
+
+
+Simulation is starting ... 
+
+File spatial_locality.txt opened successfully !!!
+
+
+----------------------------------------- Printing Statistics ----------------------------------------
+
+       References : 100000
+
+       Page faults: 1023 (1.023%)
+
+       TLB1 hits  : 58289 (58.8915%)
+
+       TLB2 hits  : 24640 (60.5584%)
+
+       Total TLB  hits: 82929 (83.7861%)
+
+       TLB misses : 16048 (16.2139%)
+
+       VM hits    : 16048 (16.048%)
+

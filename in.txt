@@ -1,0 +1,110 @@
+Enter inclusivity value (-1: non-inclusive, 0: inclusive, 1: exclusive and 2: similar to BIP): 
+Simulation is starting ... 
+
+File sequential.txt opened successfully !!!
+
+
+----------------------------------------- Printing Statistics ----------------------------------------
+
+       References : 100000
+
+       Page faults: 1024 (1.024%)
+
+       TLB1 hits  : 86604 (87.5%)
+
+       TLB2 hits  :    0 (0%)
+
+       Total TLB  hits: 86604 (87.5%)
+
+       TLB misses : 12372 (12.5%)
+
+       VM hits    : 12372 (12.372%)
+
+
+Simulation is starting ... 
+
+File random.txt opened successfully !!!
+
+
+----------------------------------------- Printing Statistics ----------------------------------------
+
+       References : 100000
+
+       Page faults: 1024 (1.024%)
+
+       TLB1 hits  : 6120 (6.18332%)
+
+       TLB2 hits  : 12639 (13.6114%)
+
+       Total TLB  hits: 18759 (18.9531%)
+
+       TLB misses : 80217 (81.0469%)
+
+       VM hits    : 80217 (80.217%)
+
+
+Simulation is starting ... 
+
+File strided.txt opened successfully !!!
+
+
+----------------------------------------- Printing Statistics ----------------------------------------
+
+       References : 100000
+
+       Page faults:  256 (0.256%)
+
+       TLB1 hits  : 49872 (50%)
+
+       TLB2 hits  :    0 (0%)
+
+       Total TLB  hits: 49872 (50%)
+
+       TLB misses : 49872 (50%)
+
+       VM hits    : 49872 (49.872%)
+
+
+Simulation is starting ... 
+
+File temporal_locality.txt opened successfully !!!
+
+
+----------------------------------------- Printing Statistics ----------------------------------------
+
+       References : 100000
+
+       Page faults:   16 (0.016%)
+
+       TLB1 hits  : 49919 (49.927%)
+
+       TLB2 hits  : 50065 (100%)
+
+       Total TLB  hits: 99984 (100%)
+
+       TLB misses :    0 (0%)
+
+       VM hits    :    0 (0%)
+
+
+Simulation is starting ... 
+
+File spatial_locality.txt opened successfully !!!
+
+
+----------------------------------------- Printing Statistics ----------------------------------------
+
+       References : 100000
+
+       Page faults: 1023 (1.023%)
+
+       TLB1 hits  : 67651 (68.3502%)
+
+       TLB2 hits  : 12484 (39.8519%)
+
+       Total TLB  hits: 80135 (80.9633%)
+
+       TLB misses : 18842 (19.0367%)
+
+       VM hits    : 18842 (18.842%)
+
