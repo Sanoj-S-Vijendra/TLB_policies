@@ -33,8 +33,8 @@ def save_to_file(filename, addresses):
     print(f"Saved {len(addresses)} addresses to {filename}")
 
 # Generate workloads
-n = 100000  # Number of addresses
-m = 1024
+n = 100000  # Number of addresses, can be changed as desired
+m = 1024    # can be changed as desired but m should be equal to VIRTUAL_MEMORY_SIZE of main.cpp
 workloads = {
     "sequential": generate_sequential_access(n),
     "random": generate_random_access(n),

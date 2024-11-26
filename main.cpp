@@ -13,10 +13,10 @@ using namespace std;
 
 const char* files[] = {"sequential.txt","random.txt","strided.txt","temporal_locality.txt","spatial_locality.txt"};
 
-#define VIRTUAL_MEMORY_SIZE 1024    //virtual address values range(0,1023)
+#define VIRTUAL_MEMORY_SIZE 1024    //virtual address values range(0,1023), should be same as m of generator.py
 #define BLOCK_SIZE 8               //size of tlb cache block
-#define TLB1_SIZE 8 
-#define TLB2_SIZE 32
+#define TLB1_SIZE 8                 // Can be changed as desired
+#define TLB2_SIZE 32                // Can be changed as desired
 
 using namespace std;
 
@@ -197,7 +197,7 @@ public:
     void run(int iter, int a, int b) {
         strcpy(file,files[iter]);
         ifstream in(file);     //File open for reading
-        int temp;                       //for the virtal address from address.txt
+        int temp;                       //for the virtal address
         int counter = 0;                //counter for all integers i read
         int page;                       //the page i calculate from virtual address
         int offset;                     //the offset i calculate from the virtual address
